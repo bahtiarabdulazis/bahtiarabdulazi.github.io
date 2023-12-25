@@ -1,0 +1,115 @@
+.Myprofil{
+    width: 220px;
+    
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+body{
+    background: linear-gradient(#ff5733 0%, #ffd633 40%, #0E21A0 100%);}
+
+.profile h2{
+    color: azure;
+}
+
+.profile h4{
+    color: azure;
+    transform: translateY(-10px);
+}
+.biodata {
+    background: linear-gradient(#fffeff 0%, #ffffffd5 40%, #fdfdfd00 100%);
+    padding-bottom: 200px;
+    padding-top: 55px;
+}
+
+.btn{
+    color: black;
+}
+
+.footer{
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.contact a{
+    color: black;
+    font-size: 30px;
+}
+
+.watermark{
+    padding-top: 50px;
+}
+
+.sertificate{
+    padding-top: 55px;
+}
+.row{
+    padding: 0px 10px;
+}
+
+.zoom-image {
+    overflow: hidden;
+    transition: transform 0.5s ease-out;
+}
+
+.zoom-image img {
+    transition: transform 0.5s ease-out;
+}
+
+.zoom-image:hover,
+.zoom-image:hover img {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .zoom-image {
+        transition: none; 
+    }
+}
+
+.Bah{
+    color: black;
+    font-size:25px
+}
+
+.bio{
+    color: black;
+}
+
+.sirti{
+    color: black;
+}
+
+.conta{
+    color: black;
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    background-color: green; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px; 
+}
+
+#scrollToTopBtn i {
+    font-size: 20px; 
+}
+
+#scrollToTopBtn:hover {
+    background-color: #0ea037; 
+}
